@@ -4,7 +4,7 @@ require_once "loxberry_system.php";
 require_once "Config/Lite.php";
   
 // This will read your language files to the array $L
-$L = LBSystem::readlanguage("language.ini");
+$lang = LBSystem::readlanguage("language.ini");
 
 // Getting data from current plugin 
 $plugin = LBSystem::plugindata();
@@ -23,13 +23,21 @@ LBWeb::lbheader($template_title, $helplink, $helptemplate);
 ?>
 
 
-<p><?=$L['BASIC.WELCOMEMESSAGE']?></p>
-<p><?=$L['BASIC.HEADING_BASICSETTINGS']?></p>
+<p><?=$lang['BASIC.WELCOMEMESSAGE']?></p>
+<p><?=$lang['BASIC.HEADING_BASICSETTINGS']?></p>
 
 
 <p><?=$cfg['SECTION1']['NAME'];?></p>
+
+
  
 <?php 
+$mshtml = LBWeb::mslist_select_html( ['FORMID' => 'msno', 'SELECTED' => 1, 'DATA_MINI' => 0 ]);
+ 
+echo $mshtml;
+
+
+
 // Finally print the footer 
 LBWeb::lbfooter();
 ?>
