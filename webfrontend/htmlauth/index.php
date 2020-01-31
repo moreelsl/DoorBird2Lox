@@ -1,15 +1,3 @@
-<html>
- <head>
-  <title>PHP-Test Config</title>
- </head>
- <body>
-
-
- <?php echo '<p>Hallo Welt</p>'; ?>
- </body>
-</html>
-
-
 <?php
 require_once "loxberry_web.php";
 require_once "loxberry_system.php";
