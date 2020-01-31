@@ -1,7 +1,6 @@
 [BASIC]
+WELCOMEMESSAGE=This plugin should offer an alternative to the DoorBird IP I/O Door Controller A1081 device.
 HEADING_BASICSETTINGS="Basic Settings"
-SAMPLEPLUGIN_HINT="This is just a sample plugin."
-SAMPLEPLUGIN_BESTPRACTISE="It should show you a best practise - how things <b>could</b> be done in a smart way if you create a plugin."
 
 [FOOTER]
 GREETING="Kind regards, The LoxBerry team."

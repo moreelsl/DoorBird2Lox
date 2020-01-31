@@ -17,9 +17,9 @@ LBWeb::lbheader($template_title, $helplink, $helptemplate);
 // This is the main area for your plugin
 ?>
 
-<p>This plugin should offer an alternative to the DoorBird IP I/O Door Controller A1081 device.</p>
-<p><?=$L['SOMEAREA.WELCOMEMESSAGE']?></p>
-<p><?=$L['SOMEAREA.HOWTOMESSAGE']?></p>
+
+<p><?=$L['BASIC.WELCOMEMESSAGE']?></p>
+<p><?=$L['BASIC.HEADING_BASICSETTINGS']?></p>
  
 <?php 
 // Finally print the footer 
